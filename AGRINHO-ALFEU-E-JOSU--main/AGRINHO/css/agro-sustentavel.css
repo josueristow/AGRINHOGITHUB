@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Share+Tech&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Concert+One&family=Share+Tech&display=swap');
+@import url(./navbar.css);
+@import url(./footer.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Concert One';
+}
+
+body{
+    background-image: url(../img/fundo-agricultura.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    backdrop-filter: blur(5px);
+    backdrop-filter: brightness(0.3);
+}
+
+.navbar .agricultura{
+    text-decoration: underline;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 8rem;
+    color: #fff;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-top: 15%;
+    margin-bottom: 22%;
+    background: linear-gradient(90deg, #c8ff00 0%, #a45917 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.271);
+}
+
+
+
+.o-que-eh-agricultura{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60vh;
+    padding: 0px 200px;
+}
+.o-que-eh-agricultura img{
+    max-width: 40%;
+    border-radius: 30px;
+}
+.o-que-eh-agricultura .content{
+    width: 100%;
+    padding-left: 50px;
+}
+.content .titulo-o-que-eh{
+    font-size: 6rem;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.content p{
+    font-size: 2.2rem;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: justify;
+}
+
+
+
+.praticas-agricolas{
+    padding: 0px 200px;
+    margin-top: 12%;
+}
+.praticas-agricolas .titulo-exemplos{
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 7%;
+    text-decoration: underline;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+
+
+.praticas-agricolas .sistemas-florestais{
+    display: flex;
+    margin-top: 2%;
+}
+.sistemas-florestais .titulo-sistemas-florestais{
+    margin-bottom: 4%;
+    text-align: center;
+    font-size: 3.5rem;
+    color: wheat;
+}
+.sistemas-florestais .content{
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sistemas-florestais img{
+    border-radius: 30px;
+    max-width: 40%;
+    aspect-ratio: 3/1.7;
+}
+
+
+
+.praticas-agricolas .agri-organica{
+    display: flex;
+    margin-top: 5%;
+}
+.agri-organica .titulo-agri-organica{
+    margin-bottom: 4%;
+    text-align: center;
+    font-size: 3.5rem;
+    color: wheat;
+}
+.agri-organica .content{
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.agri-organica img{
+    border-radius: 30px;
+    max-width: 40%;
+    aspect-ratio: 3/1.7;
+}
+
+
+
+.praticas-agricolas .agri-biodinamica{
+    display: flex;
+    margin-top: 5%;
+}
+.agri-biodinamica .titulo-biodinamica{
+    margin-bottom: 4%;
+    text-align: center;
+    font-size: 3.5rem;
+    color: wheat;
+}
+.agri-biodinamica .content{
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.agri-biodinamica img{
+    border-radius: 30px;
+    max-width: 40%;
+    aspect-ratio: 3/1.7;
+}
+
+
+
+.praticas-agricolas .agri-natural{
+    display: flex;
+    margin-top: 5%;
+}
+.agri-natural .titulo-agri-natural{
+    margin-bottom: 4%;
+    text-align: center;
+    font-size: 3.5rem;
+    color: wheat;
+}
+.agri-natural .content{
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.agri-natural img{
+    border-radius: 30px;
+    max-width: 40%;
+    aspect-ratio: 3/1.7;
+}
+
+
+
+.praticas-agricolas .permacultura{
+    display: flex;
+    margin-top: 5%;
+}
+.permacultura .titulo-permacultura{
+    margin-bottom: 4%;
+    text-align: center;
+    font-size: 3.5rem;
+    color: wheat;
+}
+.permacultura .content{
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.permacultura img{
+    border-radius: 30px;
+    max-width: 40%;
+    aspect-ratio: 3/1.7;
+}
+
+
+
+.eficiencia-agricola{
+    display: flex;
+    padding: 0px 120px;
+    margin-bottom: 10%;
+    margin-top: 17%;
+}
+.eficiencia-agricola img{
+    max-width: 40%;
+    border-radius: 30px;
+}
+.eficiencia-agricola .content{
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.eficiencia-agricola .titulo-eficiencia{
+    margin-bottom: 4%;
+    text-align: center;
+    font-size: 3.5rem;
+    color: wheat;
+}
+
+
+
+@media (max-width: 1300px){
+    .o-que-eh-agricultura{
+        padding: 0px 60px;
+    }
+    .content .titulo-o-que-eh{
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+    .praticas-agricolas{
+        padding: 0px 60px;
+    }
+    .content p{
+        font-size: 20px;
+    }
+    .sistemas-florestais img{
+        width: 20rem;
+        height: 12rem;
+    }
+    .sistemas-florestais{
+        align-items: center;
+    }
+    .agri-organica img{
+        width: 20rem;
+        height: 12rem;
+    }
+    .agri-organica{
+        align-items: center;
+    }
+    .agri-biodinamica img{
+        width: 20rem;
+        height: 12rem;
+    }
+    .agri-biodinamica{
+        align-items: center;
+    }
+    .agri-natural img{
+        width: 20rem;
+        height: 12rem;
+    }
+    .agri-natural{
+        align-items: center;
+    }
+    .permacultura img{
+        width: 20rem;
+        height: 12rem;
+    }
+    .permacultura{
+        align-items: center;
+    }
+    .eficiencia-agricola img{
+        width: 20rem;
+        height: 12rem;
+    }
+    .eficiencia-agricola{
+        align-items: center;
+        padding: 0px 60px;
+    }
+}
+
+@media (max-width: 768px){
+    h1{
+        margin-bottom: 0;
+        font-size: 2.4rem;
+    }
+
+    .o-que-eh-agricultura{
+        flex-direction: column;
+    }
+    
+    .o-que-eh-agricultura img{
+        max-width: 90%;
+    }
+    .o-que-eh-agricultura .content{
+        padding: 0;
+    }
+
+    .praticas-agricolas .titulo-exemplos{
+        font-size: 30px;
+        margin-top: 100px;
+    }
+
+    .content p{
+        font-size: 25px;
+    }
+
+
+    .praticas-agricolas .sistemas-florestais{
+        flex-direction: column;
+    }
+    .sistemas-florestais .titulo-sistemas-florestais{
+        margin-top: 30px;
+        font-size: 25px;
+    }
+    .sistemas-florestais .content{
+        padding: 0;
+    }
+    .sistemas-florestais img{
+        max-width: 100%;
+    }
+
+
+    .praticas-agricolas .agri-organica{
+        flex-direction: column;
+    }
+    .agri-organica .titulo-agri-organica{
+        margin-top: 50px;
+        font-size: 25px;
+    }
+    .agri-organica .content{
+        padding: 0;
+    }
+    .agri-organica img{
+        max-width: 100%;
+    }
+
+
+    .praticas-agricolas .agri-biodinamica{
+        flex-direction: column;
+    }
+    .agri-biodinamica .titulo-biodinamica{
+        margin-top: 50px;
+        font-size: 25px;
+    }
+    .agri-biodinamica .content{
+        padding: 0;
+    }
+    .agri-biodinamica img{
+        max-width: 100%;
+    }
+
+
+    .praticas-agricolas .agri-natural{
+        flex-direction: column;
+    }
+    .agri-natural .titulo-agri-natural{
+        margin-top: 50px;
+        font-size: 25px;
+    }
+    .agri-natural .content{
+        padding: 0;
+    }
+    .agri-natural img{
+        max-width: 100%;
+    }
+
+
+    .praticas-agricolas .permacultura{
+        flex-direction: column;
+    }
+    .permacultura .titulo-permacultura{
+        margin-top: 50px;
+        font-size: 25px;
+    }
+    .permacultura .content{
+        padding: 0;
+    }
+    .permacultura img{
+        max-width: 100%;
+    }
+
+
+    .eficiencia-agricola{
+        flex-direction: column-reverse;
+    }
+    .eficiencia-agricola img{
+        max-width: 100%;
+    }
+    .eficiencia-agricola .content{
+        padding: 0;
+    }
+    .eficiencia-agricola .titulo-eficiencia{
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 425px) {
+    .content p{
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/footer.js" defer></script>
+    <script src="../js/validForms.js" defer></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="../css/contato.css">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <figure>
+            </figure>
+            <ul>
+                <a href="../index.html"><li class="nav-item home"><ion-icon name="home-outline"></ion-icon>Home</li></a>
+                <a href="../paginas/contato.html"><li class="nav-item contato"><ion-icon name="reader-outline"></ion-icon>Contato</li></a>
+            </ul>
+        </div>
+    </header>
+
+    
+
+    <form action="" method="get">
+        <fieldset>
+            <h1>FALE CONOSCO</h1>
+            <p>
+                <label for="idNome">Nome:</label>
+                <input type="text" name="nome" id="idNome" placeholder="Informe seu Nome" maxlength="100">
+                <span id="spanNome"></span>
+            </p>
+            <p>
+                <label for="idSobrenome">Sobrenome:</label>
+                <input type="text" name="sobrenome" id="idSobrenome" placeholder="Informe seu Sobrenome" maxlength="150">
+                <span id="spanSobrenome"></span>
+            </p>
+            <p>
+                <label for="idEmail">Email:</label>
+                <input type="email" name="email" id="idEmail" placeholder="Informe seu Email" maxlength="100">
+                <span id="spanEmail"></span>
+            </p>
+            <p>
+                <label for="idSelect">Gênero:</label>
+                <select name="cars" id="idSelect" value="option">
+                    <option value="Masculino">Masculino</option>
+                    <option value="Feminino">Feminino</option>
+                    <option value="Nenhum">Nenhum</option>
+                </select>
+            </p>
+            <p>
+                <label for="idTelefone">Telefone:</label>
+                <input type="text" name="telefone" id="idTelefone" placeholder="Informe seu telefone" onkeypress="mascaraTelefone(this)" maxlength="15">
+                <span id="spanTelefone"></span>
+            </p>
+            <p>
+                <label for="idEndereco">Endereço:</label>
+                <input type="text" name="endereco" id="idEndereco" placeholder="Informe seu Endereço" maxlength="150">
+                <span id="spanEndereco"></span>
+            </p>
+            <p>
+                <label for="idAssunto">Assunto:</label>
+                <input type="text" name="assunto" id="idAssunto" placeholder="Informe o assunto">
+                <span id="spanAssunto"></span>
+            </p>
+            <p id="campoMensagem">
+                <label for="idMensagem">Mensagem:</label>
+                <textarea name="mensagem" id="idMensagem" rows="8" placeholder="Informe o conteúdo da mensagem"></textarea>
+                <span id="spanMensagem"></span>
+            </p>
+            <p>
+                <input type="submit" id="btnEnviar" onclick="setItemLocalStorage()" value="Enviar">
+            </p>
+        </fieldset>
+    </form>
+    <footer>
+        <ul>
+            <li class="item-person">Alfeu Felipe Eberhardt</li>
+            <li class="item-person">Josué Ristow</li>
+        </ul>
+    </footer>
+
+</body>
+</html>
